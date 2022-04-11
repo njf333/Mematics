@@ -15,14 +15,14 @@ import {
 import Constants from 'expo-constants';
 import * as ImagePicker from 'expo-image-picker';
 
-// Converts a React View to a png
+// Converting react view to png format
 import { captureRef } from 'react-native-view-shot';
 
 import TakePhotoButton from './components/Buttons/TakePhotoButton';
 import ChoosePhotoButton from './components/Buttons/ChoosePhotoButton';
 import SharePhotoButton from './components/Buttons/SharePhotoButton';
 
-// expostyle for react native (early version)
+// This is react native expo style
 import { lightTheme } from '@expo/styleguide-native';
 
 import MemePreview from './components/MemePreview';
@@ -100,6 +100,8 @@ export default function App() {
     </KeyboardAvoidingView>
   );
 }
+
+// css style for app
 
 const styles = StyleSheet.create({
   memeText: {
