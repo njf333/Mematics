@@ -5,8 +5,11 @@ import CustomButton from './CustomButton';
 
 import { EvilIcons } from '@expo/vector-icons';
 // Converts a React View to a png
+
 import { captureRef } from 'react-native-view-shot';
 import { lightTheme } from '@expo/styleguide-native';
+
+// expo-sharing allows you to share files directly with other compatible applications.
 
 import * as Sharing from 'expo-sharing';
 
@@ -35,7 +38,9 @@ const shareMeme = async (meme) => {
     console.log("The memeView is not rendered yet, cannot share");
     return;
   }
-
+  
+// capture photos via camera and use it for a meme
+  
   const imgUri = await captureRef(meme, {
     format: "png",
     quality: 0.5,
@@ -46,7 +51,7 @@ const shareMeme = async (meme) => {
 };
 
 
-//==========================
+//==========================  An async function is a function declared with the async keyword, and the await keyword is permitted within it. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
 
 async function shareAsync(memeView) {
   if (!memeView.current) {
