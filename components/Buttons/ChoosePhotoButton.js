@@ -6,7 +6,10 @@ import * as Icons from '@expo/vector-icons';
 
 export default function ChoosePhotoButton({ setImgUri }) {
   return (
-    <TouchableOpacity
+    
+    // css code for choose photo button
+    
+    <TouchableOpacity                                                                  
       onPress={() => choosePhotoAsync(setImgUri)}
       style={{
         width: 125,
@@ -32,14 +35,18 @@ export default function ChoosePhotoButton({ setImgUri }) {
   );
 }
 
+//function to choose image from saved pictures on phone
+
 async function choosePhotoAsync(setImgUri) {
-  // Asking for Permissions is slow. In production, store these values in React State
+  
   const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
   const isSuccessful = status === "granted";
   if (!isSuccessful) {
     alert("Media Library permissions not granted");
     return;
   }
+  
+  //expo-image-picker provides access to the system's UI for selecting images and videos from the phone's library or taking a photo with the camera.
 
   const image = await ImagePicker.launchImageLibraryAsync({
     mediaTypes: ImagePicker.MediaTypeOptions.All,
