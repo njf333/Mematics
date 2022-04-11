@@ -1,22 +1,47 @@
-MEMATICS – Meme Generator App
+<b>Table of contents</b>
 
-This is a custom meme generating app where you can get any photo from your camera roll, add text to it and share that on any social media platform. You can select pic!
+1. Project Description
+2. Demo
+3. Modules
+4. Installation Instructions
+5. Operating Instructions
+6. Learn More
+7. Credits and Acknowledgements
+
+
+<b>PROJECT DESCRIPTION</b>
+
+<b><u>MEMATICS – Meme Generator App</b></u>
+
+This is a custom meme generating app where you can get any photo from your camera roll, add text to it and share that on any social media platform. You can select pic
 ture from existing images from the app or can select from Camera roll on mobile. Your completed meme can be shared online on any app.
 
-[Screenshot_20220411-151746_Expo Go](https://user-images.githubusercontent.com/103396922/162835175-911d5b8f-84bd-4d1a-8b87-54de14ba60ba.jpg)
+![image](https://user-images.githubusercontent.com/103396922/162842359-12ec7514-747c-4571-9c40-7fadae7b5c67.png)
 
-Setting Up
+We have come across many meme generating apps, either they are paid, either it generates random memes, or if you generate these memes you cannot share that online. MEMATICS is an app that allows you to generate custom memes with your choice of photo (image) and add text to it. It allows you to share these custom created memes onine on any social media platform. The app has a scrollable view.
 
-1.	Download the Expo Go app from the Google Play or Apple App Store.
-2.	Start developing at snack.expo.dev
 
-DEMO
+<B>DEMO:</B>
 
 https://user-images.githubusercontent.com/103396922/162835963-9f62a383-2e8f-4abd-a20b-439eb51edf98.mp4
 
 
 
-MODULES
+<B>MANIFEST</B>
+
+Important files for this app:
+
+1. Components (Javascript)
+2. App (javascript, html)
+3. Package (Json - dependencies)
+
+
+<b><h4> Components </h4></b>
+
+Components has main files for buttons functionality for 3 buttons: Choose a photo, Take a photo and share respectively.
+
+
+<b>MODULES:</b>
 
 1. Input for Text:
 
@@ -55,7 +80,8 @@ Custome built memes can be shared online on any app and social media platform
 
 
 
-Installation:
+<B>INSTALLATION INSTRUCTIONS:</B>
+
 
 1. Extract the file in your computer
 
@@ -72,16 +98,25 @@ Installation:
 **Make sure to have expo-cli installed in your PC, if you don't have, run "npm install --global expo-cli" to download the dependencies
 
 
-Documentation:
+
+<b>OPERATING INSTRUCTIONS:</b>
 
 Mematics - An app that allows you to generate custom memes.
 
 This app is designed using React native, html, css and javascript. App gives us felxibility to develop any meme or design any meme of our choice usinh any photo on mobile or clicking any picture at a time and inserting text or words of your choice. The app works on android device. There are 2 input fields given to enter text, with 3 button. 2 buttons are designed to choose a photo or take a photo respectively, with a share button, that allows user to share the generated meme to any social media app.
 
-Learn More
+The app is named Mematics. You can select picture in 3 ways: 
+
+   1. Select meme from the gallery given on the app
+   2. Take a live photo with your mobile camera
+   3. Choose a photo from mobile gallery
+
+Once the picture is selected, you can enter the text, There are 2 fields given on the app, text to be inserted on the top of a meme or bottom of a meme (photo).Once the text is inserted, we can share this meme as a photo (image) across any social media app (whatsapp, google, email etc)
+
+
+<B>LEARN MORE:</B>
 
 To learn React, check out the [React documentation](https://reactjs.org/
-
 
 Code Splitting
 This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
@@ -98,7 +133,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 Deployment
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-References:
+
+<B>CREDITS & ACKNOWLEDGEMENTS:</B>
 
 1. https://github.com/sonnylazuardi/react-native-meme-generator
 2. https://github.com/Azizkhuja/Meme-app
