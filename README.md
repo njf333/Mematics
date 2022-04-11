@@ -11,6 +11,7 @@
 5. Operating Instructions
 6. Learn More
 7. Credits and Acknowledgements
+8. Troubleshooting Tips
 
 
 <b>PROJECT DESCRIPTION</b>
@@ -157,3 +158,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 7. https://www.youtube.com/watch?v=SMzAcBEc6Zk
 8. https://github.com/joyal7701/MemeGenerator
 9. https://www.geeksforgeeks.org/create-a-meme-generator-by-using-reactjs/
+
+
+<b> TROUBLESHOOTING TIPS </B>
+
+For technical assistance with this app, you can reach me out: joshinirja9@gmail.com
