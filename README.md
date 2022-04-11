@@ -1,11 +1,10 @@
-MEMATICS
+MEMATICS – Meme Generator App
 
-This is a custom meme generating app where you can get any photo from your camera roll, add text to it and share that on any social media platform. You can select picture from existing images from the app or can select from Camera roll on mobile. Your completed meme can be shared online on any app.
+This is a custom meme generating app where you can get any photo from your camera roll, add text to it and share that on any social media platform. You can select pic!
+ture from existing images from the app or can select from Camera roll on mobile. Your completed meme can be shared online on any app.
 
+[Screenshot_20220411-151746_Expo Go](https://user-images.githubusercontent.com/103396922/162835175-911d5b8f-84bd-4d1a-8b87-54de14ba60ba.jpg)
 
-![image](https://user-images.githubusercontent.com/103396922/162676548-8d9f70c2-7066-4697-a965-618b9e9568ca.png)
-
- 
 Setting Up
 
 1.	Download the Expo Go app from the Google Play or Apple App Store.
@@ -13,10 +12,11 @@ Setting Up
 
 DEMO
 
+https://user-images.githubusercontent.com/103396922/162835963-9f62a383-2e8f-4abd-a20b-439eb51edf98.mp4
 
-https://user-images.githubusercontent.com/103396922/162677683-e0f1e1de-8038-49ff-92b8-329503266912.mov
 
-These are the step-by-step instructions
+
+MODULES
 
 1. Input for Text:
 
@@ -55,12 +55,57 @@ Custome built memes can be shared online on any app and social media platform
 
 
 
+Installation:
+
+1. Extract the file in your computer
+
+2. Access the folder path using CMD (Prompt Command), for example: cd C:/Downloads
+
+3. Run the code "npm install". Make sure to have NPM installed in your PC previously.
+
+   npm start
+   Runs the app in the development mode.
+   Open http://localhost:3000 to view it in the browser.
+   
+4. Run the code using command "expo start" and enjoy the app.
+
+**Make sure to have expo-cli installed in your PC, if you don't have, run "npm install --global expo-cli" to download the dependencies
 
 
- 
+Documentation:
+
+Mematics - An app that allows you to generate custom memes.
+
+This app is designed using React native, html, css and javascript. App gives us felxibility to develop any meme or design any meme of our choice usinh any photo on mobile or clicking any picture at a time and inserting text or words of your choice. The app works on android device. There are 2 input fields given to enter text, with 3 button. 2 buttons are designed to choose a photo or take a photo respectively, with a share button, that allows user to share the generated meme to any social media app.
+
+Learn More
+
+To learn React, check out the [React documentation](https://reactjs.org/
 
 
+Code Splitting
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
+Analyzing the Bundle Size
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
+Making a Progressive Web App
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
+Advanced Configuration
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
+Deployment
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+References:
+
+1. https://github.com/sonnylazuardi/react-native-meme-generator
+2. https://github.com/Azizkhuja/Meme-app
+3. https://medium.com/@appstud/add-a-splash-screen-to-a-react-native-app-810492e773f9
+4. https://docs.expo.dev/introduction/walkthrough/
+5. https://www.androidauthority.com/best-meme-generator-apps-for-android-531044/
+6. https://www.youtube.com/watch?v=3AzgbjRJdDE
+7. https://www.youtube.com/watch?v=SMzAcBEc6Zk
+8. https://github.com/joyal7701/MemeGenerator
+9. https://www.geeksforgeeks.org/create-a-meme-generator-by-using-reactjs/
