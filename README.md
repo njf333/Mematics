@@ -1,3 +1,7 @@
+![image](https://user-images.githubusercontent.com/103396922/162844787-d5614b39-ef45-4c59-a391-3693643cc3c0.png)
+
+
+
 <b>Table of contents</b>
 
 1. Project Description
@@ -39,6 +43,14 @@ Important files for this app:
 <b><h4> Components </h4></b>
 
 Components has main files for buttons functionality for 3 buttons: Choose a photo, Take a photo and share respectively.
+
+Choose a photo from photo gallery - <l> https://github.com/njf333/Mematics/blob/main/components/Buttons/ChoosePhotoButton.js </l>
+
+Share a meme once ready - <l> https://github.com/njf333/Mematics/blob/main/components/Buttons/SharePhotoButton.js </l>
+
+Take a photo with mobile camera and create app - <l> https://github.com/njf333/Mematics/blob/main/components/Buttons/TakePhotoButton.js </l>
+
+
 
 
 <b>MODULES:</b>
