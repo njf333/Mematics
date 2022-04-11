@@ -1,2 +1,0 @@
-# MemeGenerator
-Meme Generator App
