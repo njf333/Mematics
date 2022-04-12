@@ -1,6 +1,7 @@
 <b><h2>Name: Nirja Joshi<br></br>
 Class: CS 855<br></br>
-Submitted to: Dr. Trevor Tomesh</b></h2>
+Submitted to: Dr. Trevor Tomesh
+Email: njf995@uregina.ca</b></h2>
 
 
 ![image](https://user-images.githubusercontent.com/103396922/162844787-d5614b39-ef45-4c59-a391-3693643cc3c0.png)
