@@ -1,6 +1,4 @@
 <b><h2>Name: Nirja Joshi<br></br>
-Class: CS 855<br></br>
-Submitted to: Dr. Trevor Tomesh<br></br>
 Email: njf995@uregina.ca</b></h2>
 
 
